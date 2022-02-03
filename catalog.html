@@ -44,13 +44,17 @@
             </a>
           </li> 
           <li list="navigation-item">
-            <a class="navigation-list" href="#">Хочу сюда</a>
+            <button class="button-want-here-button" type="submit">
+              <span>Хочу сюда</span>
+            </button>
           </li>
         </ul>
        </nav>
        </header>
       <main class="main-inner">
         <section class="filter">
+          <h2 class="visually-hidden">список отелей с фильтрами</h2>
+          <img class="catalog-background" alt="Вид природы" src="images/catalog-background.jpg" width="1200" height="408" >
           <h1 class="sedona-hotels">Гостиницы Седоны</h1>
             <ul class="Breadcrumbs">
              <li class="breadcrumbs-item">
@@ -62,10 +66,10 @@
                 <a class="breadcrumbs-hotel" href="index.html">Гостиницы
                 </a>
              </li>
+            </ul>
 
              <section class="catalog-hotel">
-                 <h2 class="visually-hidden">список отелей с фильтрами</h2>
-                 <img class="catalog-background" alt="Вид природы" src="images/catalog-background.jpg" width="1200" height="408" >
+                 
                  <form class="catalog-filter" action="https://echo.hrmlacademy.ru" method="get">
                      <fieldset class="catalog-filter-group">
                          <legend class="catalog-filter-infrastructure">Инфраструктура</legend>
@@ -114,10 +118,11 @@
                            </li>
                            </ul>
                     </fieldset>
+                 </form>
                     <button class="button-submit" type="submit"> ПРИМЕНИТЬ</button>
                     <button class="button-skip" type="submit"> Сбросить</button>
-                    
-                 </form>
+             </section>
+        </section>
                  <p class="found-hotels">
                      НАЙДЕНО ГОСТИНИЦ 38
                  </p>
@@ -148,8 +153,13 @@
                     </a>
                     <b class="hotel-card-housing-type"> Гостиница</b>
                     <b class="hotel-card-price">От 4000 Р</b>
-                    <a class="hotel-card-button-button" href="#"> Подробее</a>
-                    <a class="hotel-card-button-button" href="#"> В избранное</a>
+                    <button class="hotel-card-button-detail" type="submit">
+                      <span>Подробнее</span>
+                    </button>
+                    <button class="hotel-card-button-favourites" type="submit">
+                      <span>В Избранное</span>
+                    </button>
+
                     <img class="star" src="images/star.svg" alt="Звездочка" width="18" height="17">
                     <img class="star" src="images/star.svg" alt="Звездочка" width="18" height="17">
                     <img class="star" src="images/star.svg" alt="Звездочка" width="18" height="17">
@@ -165,8 +175,12 @@
                     </a>
                     <b class="hotel-card-housing-type"> Гостиница</b>
                     <b class="hotel-card-price">От 3000 Р</b>
-                    <a class="hotel-card-button-button" href="#"> Подробее</a>
-                    <a class="hotel-card-button-button" href="#"> В избранное</a>
+                    <button class="hotel-card-button-detail" type="submit">
+                      <span>Подробнее</span>
+                    </button>
+                    <button class="hotel-card-button-favourites" type="submit">
+                      <span>В Избранное</span>
+                    </button>
                     <img class="star" src="images/star.svg" alt="Звездочка" width="18" height="17">
                     <img class="star" src="images/star.svg" alt="Звездочка" width="18" height="17">
                     <img class="star" src="images/star.svg" alt="Звездочка" width="18" height="17">
@@ -181,8 +195,12 @@
                     </a>
                     <b class="hotel-card-housing-type"> Гостиница</b>
                     <b class="hotel-card-price">От 2000 Р</b>
-                    <a class="hotel-card-button-button" href="#"> Подробее</a>
-                    <a class="hotel-card-button-button" href="#"> В избранное</a>
+                    <button class="hotel-card-button-detail" type="submit">
+                      <span>Подробнее</span>
+                    </button>
+                    <button class="hotel-card-button-favourites" type="submit">
+                      <span>В Избранное</span>
+                    </button>
                     <img class="star" src="images/star.svg" alt="Звездочка" width="18" height="17">
                     <img class="star" src="images/star.svg" alt="Звездочка" width="18" height="17">
                      <p class="rating"> 
@@ -196,8 +214,12 @@
                     </a>
                     <b class="hotel-card-housing-type"> Гостиница</b>
                     <b class="hotel-card-price">От 3000 Р</b>
-                    <a class="hotel-card-button-button" href="#"> Подробее</a>
-                    <a class="hotel-card-button-button" href="#"> В избранное</a>
+                    <button class="hotel-card-button-detail" type="submit">
+                      <span>Подробнее</span>
+                    </button>
+                    <button class="hotel-card-button-favourites" type="submit">
+                      <span>В Избранное</span>
+                    </button>
                     <img class="star" src="images/star.svg" alt="Звездочка" width="18" height="17">
                     <img class="star" src="images/star.svg" alt="Звездочка" width="18" height="17">
                     <img class="star" src="images/star.svg" alt="Звездочка" width="18" height="17">
@@ -207,33 +229,56 @@
                 </li>
                 </ul>
                 
-                <button class="load-more-button button" type="button">Загрузить еще</button>
+                <button class="load-more-button-button" type="button">Загрузить еще</button>
                                    
                 <ul class="pagination">
                     <li class="pagination-item">
-                        <a class="pagination-link pagination-prev pagination-disabled">
-                            <span class="visually-hidden"> Предыдущая страница</span>
+                        <button class="pagination-link-pagination-prev-pagination-disabled" type="button">Предыдущая страница
+                          <a class="pagination-link-pagination-prev-pagination-disabled"href="#">
+                          <span class="visually-hidden"> Предыдущая страница</span>
                         </a>
+                        </button>
                     </li>
                     <li class="pagination-item">
-                        <a class="pagination-link pagination-current">1</a>
+                      <button class="pagination-link-pagination-current" type="button">1
+                        <a class="pagination-link-pagination-current"href="#">
+                        <span class="visually-hidden"> 1</span>
+                      </a>                          
+                      </button>
+                    </li>                  
+                    <li class="pagination-item">
+                      <button class="pagination-link" type="button">2
+                        <a class="pagination-link" href="#">
+                        <span class="visually-hidden"> 2</span>
+                      </a>
+                      </button>
                     </li>
                     <li class="pagination-item">
-                        <a class="pagination-link" href="#">2</a>
+                      <button class="pagination-link" type="button">3
+                        <a class="pagination-link" href="#">
+                         <span class="visually-hidden"> 3</span>
+                      </a>
                     </li>
                     <li class="pagination-item">
-                        <a class="pagination-link" href="#">3</a>
+                      <button class="pagination-link" type="button">4
+                        <a class="pagination-link" href="#">
+                        <span class="visually-hidden"> 4</span>
+                      </a>
+                      </button>
                     </li>
                     <li class="pagination-item">
-                        <a class="pagination-link" href="#">4</a>
+                      <button class="pagination-link" type="button">...
+                        <a class="pagination-link" href="#">...
+                        <span class="visually-hidden"> 5</span>
+                      </a>
+                      </button>
                     </li>
                     <li class="pagination-item">
-                        <a class="pagination-link" href="#">...</a>
-                    </li>
-                    <li class="pagination-item">
-                        <a class="pagination-link pagination-next">
+                      <button class="pagination-link" type="button">Следующая страница
+                        <a class="pagination-link pagination-next"href="#">
                             <span class="visually-hidden"> Следующая страница</span>
                         </a>
+                      </button>
                     </li>
                   </ul>
                   <p class="number-hotel">Гостиниц на странице</p>
@@ -258,7 +303,7 @@
                   <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
                     <label for="newsletter-email">email</label> 
                     <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
-                    <button class="button newsletter-button" type="submit">
+                    <button class="button-newsletter-button" type="submit">
                       <span class="block-text-2">ПОДПИСАТЬСЯ</span>
                     </button>
                   </form>

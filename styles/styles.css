@@ -32,8 +32,15 @@ body {
     font-weight: 20px;
     font-weight: 700;
     color: #ffffff;
-   
-    } 
+}
+.button-want-here-button {
+    font-size: 16px;
+    font-weight: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #756257;
+    border-radius: 4px;
+} 
 .block-text {
     font-size: 30px;
     font-weight: 36px;
@@ -46,7 +53,7 @@ body {
     font-weight: 36px;
     font-weight: 700;
     color: #ffffff;
-    background-color: #000000;
+    background-color: rgba(131, 179, 211, 0.12);
    
     }   
 .block-text-5reason {
@@ -61,14 +68,18 @@ body {
     font-weight: 26px;
     font-weight: normal;
     color: #000000;
-      
-    }
+}
+
+.button-button-search {
+    background: #756257;
+    border-radius: 10px;
+          }
 .block-text-1-white {
     font-size: 22px;
     font-weight: 26px;
     font-weight: normal;
     color: #ffffff;
-    background-color: #000000;
+   
       
     }
 .advantages-item-1 {
@@ -76,6 +87,7 @@ body {
     font-weight: 28px;
     font-weight: 700;
     color: #000000;
+   
       
     }
 .advantages-item-2 {
@@ -90,7 +102,7 @@ body {
     font-weight: 28px;
     font-weight: 700;
     color: #ffffff;
-    background-color: #000000;
+  
       
     }
 .advantages-item-2-white {
@@ -98,7 +110,7 @@ body {
     font-weight: 21px;
     font-weight: normal;
     color: #ffffff;
-    background-color: #000000;
+  
       
     }
 .button-button-search {
@@ -119,16 +131,13 @@ body {
     font-weight: 78px;
     font-weight: 700;
     color: #ffffff;
-    background-color: #000000;
+    background-color: rgba(131, 179, 211, 0.12);
 }
 
 .welcome {
-    background-color: #000000;
+    background-color: rgba(131, 179, 211, 0.12);
 }
-.home {
-   background-color: #000000;
-}
-.breadcrumbs-hotel {
+.breadcrumbs-items {
     font-size: 16px;
     font-weight: 21px;
     font-weight: 400;
@@ -141,36 +150,48 @@ body {
     font-weight: 26px;
     font-weight: 700;
     color: #ffffff;
-    background-color: #000000;
+   
 }
+.button-newsletter-button {
+   
+    background: #83B3D3;
+    border-radius: 0px 10px 10px 0px;
+}
+.filter {
+   background-color: rgba(131, 179, 211, 0.12);
+}
+
+
 .catalog-filter-group {
     font-size: 20px;
     font-weight: 26px;
     font-weight: 700;
     color: #ffffff;
-    background-color: #000000;
+    background-color: rgba(131, 179, 211, 0.12);
 }
 .catalog-filter-item {
     font-size: 18px;
     font-weight: 23px;
     font-weight: 400;
     color: #ffffff;
-    background-color: #000000;
+    background-color: rgba(131, 179, 211, 0.12);
 } 
 .button-submit {
     font-size: 16px;
     font-weight: 21px;
     font-weight: 700;
+    background: #83B3D3;
+    border-radius: 4px;
     color: #ffffff;
-    background-color: #000000;
-}
+    }
 .button-skip {
     font-size: 18px;
     font-weight: 23px;
     font-weight: 400;
     color: #ffffff;
-    background-color: #000000;
-}
+    background: #83B3D3;
+    border-radius: 4px;
+    }
 .found-hotels {
     font-size: 30px;
     font-weight: 39px;
@@ -195,13 +216,21 @@ body {
     font-weight: 700;
     color: #333333;
 }
-.hotel-card-button-button {
+.hotel-card-button-detail {
     font-size: 16px;
     font-weight: 21px;
     font-weight: 700;
     color: #ffffff;
-    background-color: #000000;
-    text-decoration: none;
+    background: #756257;
+    border-radius: 4px;
+}
+.hotel-card-button-favourites {
+    font-size: 16px;
+    font-weight: 21px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #83B3D3;
+    border-radius: 4px;
 }
 .rating {
     font-size: 16px;
@@ -214,7 +243,6 @@ body {
     font-weight: 26px;
     font-weight: 700;
     color: #ffffff;
-    background-color: #000000;
     text-decoration: none;
 }
 a {
@@ -246,5 +274,40 @@ a {
     letter-spacing: -0.1em;
 }
 
+.advantages-item {
+    background-color: #83B3D3;
+}
+.description {
+    background-color: rgba(131, 179, 211, 0.12);
 
-    
+}
+.description-food {
+    background-color: #ffffff;
+
+}
+.load-more-button-button{
+    font-size: 20px;
+    font-weight: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    width: 619.83px;
+    height: 60px;
+    left: 330px;
+    top: 1568px;
+    background: #83B3D3;
+    border-radius: 4px;
+}
+.pagination-link-pagination-current {
+    color: #000000;
+    background: #F2F2F2;
+    border-radius: 4px;
+}
+.pagination-link {
+
+    background: #83B3D3;
+    border-radius: 4px;
+}    
+.pagination-link-pagination-prev-pagination-disabled{
+    background: #83B3D3;
+    border-radius: 4px;
+}
