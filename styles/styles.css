@@ -12,22 +12,27 @@
     src: url("fonts/ptsans-700/woff2") format("woff2");
     font-display: swap;
 }
-body {
+body {    
     font-family: "PT Sans", sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100%;
     font-size: 18px;
-    font-weight: 21px;
+    line-height: 21px;    
     color: #333333;
-    background-color: #ffffff;
+    background-color: #e5e5e5;   
+ }
+ .container {
     width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;   
  }
 .page-header {   
     display: flex;
-    width: 1060px;
+    width: 100%;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 70px;
+    box-sizing: border-box;
     
 }
 .navigation-list  {
@@ -652,10 +657,29 @@ body {
 .stars {
     display: flex;
     margin: 0;
-    width: 140px;
-    margin-top: 10px;
+    margin-top: 26px;    
+    padding: 0;     
+    background-image: url(../images/star.svg);
+    background-repeat: repeat-x;
+    vertical-align: middle;
+    
 }
-.rating {
+.stars-5.stars {
+    width: 87px;
+}
+.stars-4.stars {
+    width: 70px;
+}
+.stars-3.stars {
+    width: 52px;
+}
+.stars-2.stars {
+    width: 35px;
+}
+.stars-1.stars {
+    width: 17px;
+}
+.hotel-rating {
     width: 160px;
     height: 37px;
     text-align: center;
@@ -678,7 +702,7 @@ body {
     height: 60px;  
     border-radius: 4px 4px 4px 4px;  
 }
-.pagination-contaiter {
+.pagination-container {
     display: flex;
     margin: 0;
     width: 1056px;
