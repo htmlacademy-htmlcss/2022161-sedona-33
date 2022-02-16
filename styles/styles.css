@@ -47,7 +47,7 @@ body {
     display: flex;    
     padding: 20px 0px ;
     font-size: 20px;
-    font-weight: 26px;
+    line-height: 26px;
     font-weight: 700;
     color: #000000;
     text-align: center;
@@ -58,7 +58,7 @@ body {
 .user-menu {
     display: flex;
     font-size: 16px;
-    font-weight: 20px;
+    line-height: 20px;
     font-weight: 700;
     color: #ffffff;
     max-width: 300px;
@@ -86,7 +86,7 @@ body {
     flex-grow: 1;
 }
 .welcome {
-    width: 1200px;
+    width: 100%px;
     height: 485px;
     background-color: rgba(131, 179, 211, 0.12);
     background-image: url(../images/index-background.jpg);
@@ -99,7 +99,7 @@ body {
     }
 .slogan {
     display: block;
-    width: 1200px;
+    width: 100%;
     text-align: center;
     justify-content: center;
 }
@@ -138,7 +138,7 @@ body {
     width: 200px;
     height: 56px;
     font-size: 24px;
-    font-weight: 38x;
+    line-height: 38x;
     font-weight: 700;    
     text-align: center;
     text-transform: uppercase;
@@ -150,7 +150,7 @@ body {
     width: 220px;
     height: 21px;
     font-size: 18px;
-    font-weight: 21px;
+    line-height: 21px;
     font-weight: 400;    
     text-align: center;
 }
@@ -161,7 +161,7 @@ body {
     width: 229px;
     height: 63px;
     font-size: 18px;
-    font-weight: 21px;
+    line-height: 21px;
     font-weight: 400;    
     text-align: center;
 }
@@ -210,7 +210,7 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
-    width: 1200px;
+    width: 100%;
     height: 384px;
     background-color: rgba(131, 179, 211, 0.12);
 }
@@ -234,7 +234,7 @@ body {
     width: 400px;
     height: 56px;
     font-size: 24px;
-    font-weight: 38x;
+    line-height: 38x;
     font-weight: 700;    
     text-align: center;
     text-transform: uppercase;
@@ -261,7 +261,7 @@ body {
 .search-hotel {
     margin: 0;
     padding: 0;
-    width: 1200px;
+    width: 100%;
     height: 417px;
     display: flex;
     flex-direction: column;    
@@ -310,7 +310,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    width: 1200px;
+    width: 100%;
     height: 411px;
     background-color: rgba(131, 179, 211, 0.12);
     background-image: url(../images/background.jpg);
@@ -370,7 +370,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
-    width: 1200px;
+    width: 100%;
     height: 120px;
     margin: 0;
     padding: 0;
@@ -411,7 +411,7 @@ body {
     padding: 0;
 }
 .filter{
-    width: 1200px;
+    width: 100%;
     height: 408px;
     background-color: rgba(131, 179, 211, 0.12);
     background-image: url(../images/catalog-background.jpg);
@@ -421,7 +421,7 @@ body {
 }
 .breadcrumbs-hotel {
     font-size: 16px;
-    font-weight: 21px;
+    line-height: 21px;
     font-weight: 400;
     color: #ffffff;
     background-color: rgba(131, 179, 211, 0.12);
@@ -430,7 +430,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 60px;
-    font-weight: 78px;
+    line-height: 78px;
     font-weight: 700;
     color: #ffffff;
     background-color: rgba(131, 179, 211, 0.12);
@@ -448,7 +448,7 @@ body {
 }
 .breadcrumbs-items {
     font-size: 16px;
-    font-weight: 21px;
+    line-height: 21px;
     font-weight: 400;
     color: #ffffff;
     background-color: #000000;
@@ -457,12 +457,12 @@ body {
 .catalog-filter {
     display: flex;
     flex-direction: row;
-    width: 1200px;
+    width: 100%;
     color: #ffffff;
     margin: 0;
     padding: 0;    
     font-size: 20px;
-    font-weight: 26px;
+    line-height: 26px;
     font-weight: 700;
 }
 .filter-infrastructure {
@@ -485,7 +485,7 @@ body {
     padding: 0;
     padding-bottom: 18px; 
     font-size: 18px;
-    font-weight: 23px;
+    line-height: 23px;
     font-weight: 400;
     color: #ffffff;
 }
@@ -599,7 +599,7 @@ body {
     margin: 0;
     padding: 0;    
     font-size: 24px;
-    font-weight: 31px;
+    line-height: 31px;
     font-weight: 700;
     color: #000000;
     text-decoration: none;
@@ -613,7 +613,7 @@ body {
     width: 133px;
     height: 23px;
     font-size: 18px;
-    font-weight: 23px;
+    line-height: 23px;
     font-weight: 400;
     margin-right: 26px;
  }
@@ -649,7 +649,7 @@ body {
     margin: 0;
     margin-bottom: 20px;
     font-size: 16px;
-    font-weight: 21px;
+    line-height: 21px;
     font-weight: 400;
     color: #333333;
     text-transform: uppercase; 
@@ -720,7 +720,7 @@ body {
     display: block;
     box-sizing: border-box;
     font-size: 20px;
-    font-weight: 26px;
+    line-height: 26px;
     font-weight: 700;
     color: #ffffff;
     width: 55px;
@@ -766,7 +766,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    width: 1200px;
+    width: 100%;
     height: 411px;
     background-color: #ffffff;    
     background-repeat: no-repeat;
@@ -796,9 +796,6 @@ body {
     margin-top: 0px;
     margin-bottom: 29px;
 }
-
-
-
 
 html {
     height: 100%;
