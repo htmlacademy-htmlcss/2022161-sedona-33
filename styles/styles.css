@@ -1193,9 +1193,10 @@ input[type="email"]:invalid {
 .sorting {
   display: flex;
   margin: 0;
+  margin-bottom: 53px;
   padding: 0;
-  width: 1057px;
-  margin-left: 71px;
+  width: 1056px;
+  margin-left: 72px;
   margin-right: 72px;
 }
 
@@ -1227,7 +1228,7 @@ input[type="email"]:invalid {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: url(../images/dropdown.png) 92.1%/4.5% no-repeat;
+  background: url(../images/dropdown.png) 92.2%/4.2% no-repeat;
 }
 
 .select-control:hover {
@@ -1247,12 +1248,12 @@ input[type="email"]:invalid {
 .hotels {
   margin: 0 auto;
   padding: 0;
-  width: 1040px;
+  width: 1056px;
 }
 
 .hotel-list {
   display: grid;
-  grid-template-columns: repeat(3, 340px);
+  grid-template-columns: repeat(auto-fill, 340px);
   gap: 10px 18px;
   margin: 0;
   margin-bottom: 64px;
@@ -1542,7 +1543,7 @@ input[type="email"]:invalid {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: url(../images/dropdown.png) 87%/7.5% no-repeat;
+  background: url(../images/dropdown.png) 86%/7.5% no-repeat;
 }
 
 .select-control1:hover {
