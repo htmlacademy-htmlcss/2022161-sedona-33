@@ -15,13 +15,13 @@
       </a>
       <nav class="navigation">
         <ul class="navigation-list">
-          <li list="navigation-item">
+          <li class="navigation-item">
             <a class="navigation-link navigation-link-current" href="index.html">Главная</a>
           </li>
-          <li list="navigation-item">
+          <li class="navigation-item">
             <a class="navigation-link" href="aboutsedona.html">О Седоне</a>
           </li>
-          <li list="navigation-item">
+          <li class="navigation-item">
             <a class="navigation-link" href="hotels.html">Гостиницы</a>
           </li>
         </ul>
@@ -49,7 +49,7 @@
           </a>
         </li>
         <li class="user-menu-item">
-          <a class="button button-secondary want-here" href="#">Хочу сюда</a>
+          <a class="button button-secondary want-here" href="#openModal">Хочу сюда!</a>
         </li>
       </ul>
     </header>
@@ -91,7 +91,7 @@
         <section class="catalog-hotel">
           <form class="catalog-filter" action="https://echo.hrmlacademy.ru" method="get">
             <fieldset class="filter-infrastructure">
-              <legend class="catalog-filter-infrastructure">Инфраструктура</legend>
+              <legend class="catalog-filter-infrastructure">Инфраструктура:</legend>
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
                   <label for="pool-check" class="control">
@@ -177,7 +177,7 @@
       </section>
       <div class="hotel-description">
         <section class="sorting">
-          <p class="found-hotels">Найдено гостиниц:38</p>
+          <p class="found-hotels">Найдено гостиниц: 38</p>
           <select class="select-control" aria-label="Сортировка">
             <option value="cheap">Сначала дешёвые</option>
             <option value="expensive">Сначала дорогие</option>
@@ -282,28 +282,7 @@
                 <button class="button button-primary favourites" type="button">В Избранное</button>
               </div>
               <div class="stars-rating">
-                <div class="stars stars-3">
-                  <span class="visually-hidden">Три звезды</span>
-                </div>
-                <p class="hotel-rating">рейтинг: 9.2</p>
-              </div>
-            </li>
-            <li class="hotel-card">
-              <a class="hotel-card-link" href="#">
-                <img class="hotel-card-image" src="images/hotel4.jpg" alt="Картинка отеля GreenTree Inn" width=""
-                  height="">
-                <h3 class="hotel-card-title"> GreenTree Inn</h3>
-              </a>
-              <div class="type-price">
-                <span class="hotel-card-housing-type"> Гостиница</span>
-                <span class="hotel-card-price">От 3000 Р</span>
-              </div>
-              <div>
-                <button class="button button button-secondary details" type="button">Подробнее</button>
-                <button class="button button-primary favourites" type="button">В Избранное</button>
-              </div>
-              <div class="stars-rating">
-                <div class="stars stars-3">
+                <div class="stars stars-2">
                   <span class="visually-hidden">Три звезды</span>
                 </div>
                 <p class="hotel-rating">рейтинг: 9.2</p>
@@ -311,7 +290,9 @@
             </li>
 
           </ul>
-          <button class="button button-primary load-more" type="button">Загрузить еще</button>
+          <div class="lines">
+            <button class="button button-primary load-more" type="button">Загрузить еще</button>
+          </div>
           <div class="pagination-container">
             <ul class="pagination">
               <li>
@@ -350,7 +331,7 @@
       <section class="subscription-catalog">
         <h2 class="visually-hidden">Подписка</h2>
         <p class="subscription-title-catalog">Подпишитесь на рассылку</p>
-        <p class="subscription-text-catalog">Только полезная информация и никакого спама,честное бойскаутское!</p>
+        <p class="subscription-text-catalog">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label class="visually-hidden" for="newsletter-email">email</label>
           <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
@@ -383,7 +364,7 @@
           <a class="footer-social-button youtube" href="https://www.youtube.com/c/HTMLAcademyRUS">
             <svg class="footer-social-icon" aria-hidden="true" focusable="false" width="20" height="16"
               viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g >
+              <g>
                 <path
                   d="M17 0H2.9C1.2 0 0 1.5 0 3.2v9.5C0 14.5 1.2 16 2.9 16h14.3c1.5 0 2.9-1.5 2.9-3.2V3.2C19.9 1.5 18.7 0 17 0ZM7 11.8V4.2L13.7 8 7 11.8Z"
                   fill="#83B3D3" />

@@ -62,12 +62,13 @@ a {
   padding: 0;
   list-style-type: none;
   flex-wrap: wrap;
+  margin-left: 17px;
 }
 
 .navigation-link {
   display: flex;
-  padding: 20px 0px;
-  margin-right: 20px;
+  padding: 20px 0px 20px 0px;
+  margin-right: 34px;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -91,13 +92,13 @@ a {
   bottom: 0;
   left: 0;
   height: 2px;
-  background-color: #756257;
+  border-bottom: #756257;
   content: "";
 }
 
 .navigation-link:focus {
-  background: #615048;
-  border: 3px solid #83B3D3;
+  text-transform: uppercase;
+
 }
 
 .user-menu {
@@ -112,6 +113,7 @@ a {
   margin-top: 0;
   margin-bottom: 0;
   list-style-type: none;
+  height: 66px;
 }
 
 .user-menu-item {
@@ -185,6 +187,7 @@ a {
   justify-content: center;
   width: 575px;
   height: 60px;
+  border-radius: 10px;
 }
 
 .button-secondary:hover {
@@ -229,7 +232,7 @@ a {
 
 .welcome-img {
   margin-top: 51px;
-  margin-bottom: 25px;
+  margin-bottom: 21px;
 }
 
 .slogan {
@@ -271,12 +274,12 @@ a {
 .reasons-title {
   margin: 0 auto;
   padding: 0;
-  margin-top: 97px;
+  margin-top: 96px;
   margin-bottom: 30px;
   width: 200px;
   height: 56px;
   font-size: 24px;
-  line-height: 38px;
+  line-height: 28px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -298,7 +301,7 @@ a {
   margin: 0 auto;
   padding: 0;
   margin-bottom: 87px;
-  width: 229px;
+  width: 250px;
   height: 63px;
   font-size: 18px;
   line-height: 21px;
@@ -361,10 +364,12 @@ a {
 
 .reason-img1 {
   grid-column: 2/-1;
+  height: 384px;
 }
 
 .reason-img2 {
   grid-column: 1/-2;
+  height: 384px;
 }
 
 .house-icon {
@@ -372,23 +377,7 @@ a {
   margin-top: 89px;
   width: 75px;
   height: 72px;
-  justify-content: center;
-}
-
-.food-icon {
-  margin: 0 auto;
-  margin-top: 89px;
-  width: 74px;
-  height: 70px;
-  justify-content: center;
-}
-
-.souvenirs-icon {
-  margin: 0 auto;
-  margin-top: 89px;
-  width: 64px;
-  height: 76px;
-  justify-content: center;
+  justify-content: center;  
 }
 
 .reasons-advantages {
@@ -397,7 +386,7 @@ a {
   padding: 0;
   width: 100%;
   height: 384px;
-  background-color: rgba(131, 179, 211, 0.12);
+  background-color: rgba(131, 179, 211, 0.12);  
 }
 
 .advantages-item {
@@ -410,19 +399,33 @@ a {
   color: #000000;
 }
 
-.advantages-item.food {
+.reasons-advantages.house {  
+  background-image: url(../images/house.svg);
+  background-repeat: no-repeat;
+  background-position: 163px 89px;  
+}
+
+.reasons-advantages.food {
+  background-image: url(../images/food.svg);
+  background-repeat: no-repeat;
+  background-position: 163px 91px;  
   background-color: #ffffff;
+}
+.reasons-advantages.souvenirs {
+  background-image: url(../images/souvenirs.svg);
+  background-repeat: no-repeat;
+  background-position: 168px 85px;  
 }
 
 .advantages-item-title {
   margin: 0 auto;
   padding: 0;
-  margin-top: 24px;
+  margin-top: 184px;
   margin-bottom: 20px;
   width: 400px;
-  height: 56px;
+  height: 28px;
   font-size: 24px;
-  line-height: 38px;
+  line-height: 28px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -474,15 +477,17 @@ a {
   line-height: 26px;
   font-weight: 400;
   text-align: center;
+  margin: 0;
   margin-bottom: 56px;
+  
 }
 
 .button-secondary.want-here {
   margin: auto 0;
   margin-left: 20px;
-  padding: 9px 15px;
+  padding: 8px 15px 8px 15px;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 20px;
   width: 160px;
 }
 
@@ -523,12 +528,13 @@ a {
   text-align: center;
   color: #ffffff;
   margin-top: 0px;
-  margin-bottom: 29px;
+  margin-bottom: 46px;
 }
 
 .newsletter-form {
   display: flex;
   justify-content: center;
+
 }
 
 .field {
@@ -607,17 +613,18 @@ input[type="email"]:invalid {
 
 .footer-social-list {
   display: flex;
+  width: 107px;
   margin: 0;
   padding: 0;
   margin-top: 49px;
   margin-bottom: 53px;
   margin-left: 72px;
+  margin-right: 61px;
 }
 
 .footer-social-item {
   gap: 3px;
   margin-right: 3px;
-  box-sizing: border-box;
   border-radius: 10px;
   list-style-type: none;
 }
@@ -672,10 +679,10 @@ input[type="email"]:invalid {
 
 .contacts-phone {
   color: #000000;
-  max-width: 720px;
-  height: 50px;
+  width: 720px;
+  height: 40px;
   margin: 0;
-  padding: 15px;
+  padding: 0;
   font-size: 40px;
   line-height: 40px;
   text-transform: uppercase;
@@ -707,12 +714,13 @@ input[type="email"]:invalid {
 .html-logo {
   display: flex;
   color: #000000;
-  width: 160px;
-  height: 70px;
+  width: 115px;
+  height: 34px;
   margin: 0;
   margin-top: 42px;
   margin-bottom: 44px;
   margin-right: 72px;
+  margin-left: 53px;
   align-items: center;
   justify-content: center;
 }
@@ -747,6 +755,7 @@ input[type="email"]:invalid {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin-bottom: 44px;
+  margin-top: -4px;
 }
 
 .breadcrumbs-hotel {
@@ -755,7 +764,7 @@ input[type="email"]:invalid {
   font-weight: 400;
   color: #ffffff;
   background-color: rgba(131, 179, 211, 0.12);
-  margin-left: 10px;
+  margin-left: 5px;
   padding: 3px 8px;
   text-decoration: none;
 }
@@ -764,11 +773,11 @@ input[type="email"]:invalid {
   margin: 0;
   padding: 0;
   font-size: 60px;
-  line-height: 78px;
+  line-height: 68px;
   font-weight: 700;
   background-color: rgba(131, 179, 211, 0.12);
-  margin-left: 71px;
-  padding-top: 34px;
+  margin-left: 72px;
+  padding-top: 39px;
   color: #ffffff;
 }
 
@@ -776,9 +785,10 @@ input[type="email"]:invalid {
   display: flex;
   margin: 0%;
   padding: 0%;
-  margin-left: 71px;
-  margin-top: 5px;
+  margin-left: 73px;
+  margin-top: -2px;
   margin-bottom: 45px;
+  margin-right: 6px;
   list-style-type: none;
 }
 
@@ -811,7 +821,11 @@ input[type="email"]:invalid {
 .breadcrumbs-home {
   width: 12px;
   height: 12px;
-  padding: 6px 8px 9px 8px;
+  margin-right: 10px;
+}
+legend {
+  padding-inline-start: 0;
+  padding-inline-end: 0;
 }
 
 .button-view {
@@ -824,6 +838,10 @@ input[type="email"]:invalid {
   align-items: center;
   justify-content: center;
 }
+.button-view:not(:last-child) {
+  margin-right: 8px;
+}
+
 
 .button-view:hover {
   border: 2px solid #83B3D3;
@@ -857,7 +875,7 @@ input[type="email"]:invalid {
 
 .filter-infrastructure {
   margin: 0;
-  margin-left: 71px;
+  margin-left: 73px;
   margin-right: 17px;
   padding: 0;
   border: none;
@@ -878,7 +896,7 @@ input[type="email"]:invalid {
 .catalog-filter-item {
   margin: 0;
   padding: 0;
-  padding-bottom: 18px;
+  padding-bottom: 13px;
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
@@ -957,7 +975,7 @@ input[type="email"]:invalid {
 
 .toggle-max {
   top: -8px;
-  right: -2px;
+  right: -7px;
 }
 
 .filter-range-label {
@@ -968,8 +986,8 @@ input[type="email"]:invalid {
   line-height: 23px;
   padding-top: 10px;
   padding-bottom: 8px;
-  padding-right: 11px;
-  padding-left: 15px;
+  padding-right: 14px;
+  padding-left: 17px;
   font-style: normal;
   font-weight: normal;
   color: #ffffff;
@@ -1027,7 +1045,7 @@ input[type="email"]:invalid {
 
 .range-wrapper-inputs {
   width: 287px;
-  margin-top: 34px;
+  margin-top: 36px;
   display: flex;
   flex-direction: row;
   background-color: transparent;
@@ -1074,7 +1092,7 @@ input[type="email"]:invalid {
 .control {
   position: relative;
   display: block;
-  padding-left: 49px;
+  padding-left: 39px;
 }
 
 .control-mark {
@@ -1157,6 +1175,7 @@ input[type="email"]:invalid {
 }
 
 .button.button-skip {
+  display: flex;
   margin: 0;
   padding: 0;
   border: 0;
@@ -1166,9 +1185,11 @@ input[type="email"]:invalid {
   color: #F2F2F2;
   text-align: center;
   width: 160px;
-  height: 48px;
+  height: 63px;
   background-color: transparent;
   text-transform: none;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-skip:hover {
@@ -1202,9 +1223,9 @@ input[type="email"]:invalid {
 
 .found-hotels {
   margin: 0;
-  margin-right: 192px;
-  padding: 0;
-  width: 370px;
+  margin-right: 191px;
+  padding-top: 4px;
+  width: 338px;
   height: 39px;
   font-size: 30px;
   line-height: 39px;
@@ -1256,7 +1277,7 @@ input[type="email"]:invalid {
   grid-template-columns: repeat(auto-fill, 340px);
   gap: 10px 18px;
   margin: 0;
-  margin-bottom: 64px;
+  margin-bottom: 34px;
   padding: 0;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -1267,6 +1288,7 @@ input[type="email"]:invalid {
   flex-direction: column;
   margin: 0;
   padding: 20px;
+  padding-bottom: 4px;
   justify-content: space-between;
 }
 
@@ -1289,7 +1311,7 @@ input[type="email"]:invalid {
 }
 
 .hotel-card-image {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .hotel-card-image:hover {
@@ -1378,7 +1400,6 @@ input[type="email"]:invalid {
 .stars-rating {
   display: flex;
   margin: 0;
-  margin-bottom: 20px;
   font-size: 16px;
   line-height: 21px;
   font-weight: 400;
@@ -1390,30 +1411,34 @@ input[type="email"]:invalid {
   display: flex;
   margin: 0;
   margin-top: 26px;
-  padding: 0;
   background-image: url(../images/star.svg);
-  background-repeat: repeat-x;
+  background-repeat: space;
   vertical-align: middle;
 }
 
 .stars-5.stars {
-  width: 87px;
+  width: 118px;
+  height: 18px;
 }
 
 .stars-4.stars {
-  width: 70px;
+  width: 93px;
+  height: 18px;
 }
 
 .stars-3.stars {
-  width: 52px;
+  width: 68px;
+  height: 18px;
 }
 
 .stars-2.stars {
-  width: 35px;
+  width: 43px;
+  height: 18px;
 }
 
 .stars-1.stars {
-  width: 17px;
+  width: 18px;
+  height: 18px;
 }
 
 .hotel-rating {
@@ -1429,8 +1454,10 @@ input[type="email"]:invalid {
 
 .load-more.button-primary {
   margin: 0;
-  margin-bottom: 30px;
+  margin-top: 29px;
+  margin-bottom: 29px;
   margin-left: 218px;
+  margin-right: 218px;
   padding: 0;
   border: 0;
   font-size: 20px;
@@ -1442,12 +1469,17 @@ input[type="email"]:invalid {
   height: 60px;
   border-radius: 4px 4px 4px 4px;
 }
+.lines {
+  border-top: 1px solid #E6E6E6;
+  border-bottom: 1px solid #E6E6E6;
+}
 
 .pagination-container {
   display: flex;
   margin: 0;
   width: 1056px;
   padding: 0;
+  margin-top: 30px;
   margin-bottom: 73px;
 }
 
@@ -1508,7 +1540,6 @@ input[type="email"]:invalid {
   margin-left: auto;
   padding: 0;
   height: 55px;
-  width: 400px;
   list-style-type: none;
   flex-wrap: wrap;
   align-items: center;
@@ -1517,8 +1548,7 @@ input[type="email"]:invalid {
 
 .number-hotel {
   margin: 0;
-  margin-right: 51px;
-  margin-top: 0;
+  margin-right: 55px;
   padding: 0;
   text-align: center;
   font-size: 18px;
@@ -1566,7 +1596,7 @@ input[type="email"]:invalid {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 411px;
+  height: 381px;
   background-color: #ffffff;
   background-repeat: no-repeat;
   flex-grow: 1;
@@ -1710,7 +1740,7 @@ body {
   width: 380px;
   height: 50px;
   font-size: 18px;
-  line-height: 40px;
+  line-height: 48px;
   font-weight: 700;
   border-radius: 4px 0 0 4px;
   background-color: #F2F2F2;
@@ -1802,6 +1832,7 @@ body {
   display: flex;
   width: 54px;
   vertical-align: middle;
+  margin-right: 43px;
 }
 
 .field-modal2::-webkit-outer-spin-button,
@@ -1898,16 +1929,24 @@ body {
   margin-left: 155px;
 }
 
-.children-info {
-  position: relative;
+
+.tooltip {
+  position: absolute;
+  margin-top: 0;
+  margin-left: 54px;
   width: 25px;
   height: 25px;
-  margin-right: 18px;
-  border-radius: 50%;
-  background: #83B3D3;
 }
 
-.children-info::before {
+.tooltip-toggle {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.tooltip-toggle::before {
   position: absolute;
   top: 8px;
   left: 12px;
@@ -1917,7 +1956,7 @@ body {
   content: "";
 }
 
-.children-info::after {
+.tooltip-toggle::after {
   position: absolute;
   top: 11px;
   left: 12px;
@@ -1927,9 +1966,22 @@ body {
   content: "";
 }
 
+.tooltip-toggle:hover{
+  color: #AF7842;
+}
+
+.tooltip-text {
+  display: none;
+}
+
+.tooltip-toggle:hover + .tooltip-text,
+.tooltip-toggle:focus + .tooltip-text {
+  display: block;
+}
 .triangle {
+  display: block;  
   position: absolute;
-  top: 30px;
+  top: 23px;
   left: 3px;
   width: 0px;
   height: 0px;
@@ -1938,8 +1990,9 @@ body {
 }
 
 .popover {
+  display: block;
   position: absolute;
-  top: 50px;
+  top: 41px;
   left: -116px;
   width: 216px;
   height: 110px;
@@ -1964,5 +2017,5 @@ body {
 }
 
 .modal-container-close {
-  display: none;
+  display: non;
 }
