@@ -166,15 +166,15 @@
                     <span class="visually-hidden">Изменить максимальную цену.</span>
                   </button>
                 </div>
+              </div>
             </fieldset>
             <div class="filter-button">
               <button class="button button-primary submit" type="submit">Применить</button>
               <button class="button button-skip" type="reset">Сбросить</button>
             </div>
+          </form>
+        </section>
       </div>
-      </fieldset>
-      </form>
-      </section>
       <div class="hotel-description">
         <section class="sorting">
           <p class="found-hotels">Найдено гостиниц: 38</p>
@@ -203,12 +203,13 @@
           </a>
         </section>
         <div class="hotels">
+          <h2 class="visually-hidden">Отели</h2>
           <ul class="hotel-list">
             <li class="hotel-card">
               <a class="hotel-card-link" href="#">
                 <img class="hotel-card-image" src="images/hotel1.jpg" alt="Картинка отеля Amara resort & spa"
                   width="300" height="206">
-                <h3 class="hotel-card-title"> Amara Resort & Spa</h3>
+                <h3 class="hotel-card-title">Amara Resort & Spa</h3>
               </a>
               <div class="type-price">
                 <span class="hotel-card-housing-type"> Гостиница</span>
@@ -249,7 +250,7 @@
             <li class="hotel-card">
               <a class="hotel-card-link" href="#">
                 <img class="hotel-card-image" src="images/hotel3.jpg" alt="Картинка отеля Villas at Poco Diablo"
-                  width="" height="">
+                  width="300" height="206">
                 <h3 class="hotel-card-title"> Villas at Poco Diablo</h3>
               </a>
               <div class="type-price">
@@ -269,8 +270,8 @@
             </li>
             <li class="hotel-card">
               <a class="hotel-card-link" href="#">
-                <img class="hotel-card-image" src="images/hotel4.jpg" alt="Картинка отеля GreenTree Inn" width=""
-                  height="">
+                <img class="hotel-card-image" src="images/hotel4.jpg" alt="Картинка отеля GreenTree Inn" width="300"
+                  height="206">
                 <h3 class="hotel-card-title"> GreenTree Inn</h3>
               </a>
               <div class="type-price">
@@ -364,12 +365,12 @@
           <a class="footer-social-button youtube" href="https://www.youtube.com/c/HTMLAcademyRUS">
             <svg class="footer-social-icon" aria-hidden="true" focusable="false" width="20" height="16"
               viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M17 0H2.9C1.2 0 0 1.5 0 3.2v9.5C0 14.5 1.2 16 2.9 16h14.3c1.5 0 2.9-1.5 2.9-3.2V3.2C19.9 1.5 18.7 0 17 0ZM7 11.8V4.2L13.7 8 7 11.8Z"
-                  fill="#83B3D3" />
+              <path
+                d="M17 0H2.9C1.2 0 0 1.5 0 3.2v9.5C0 14.5 1.2 16 2.9 16h14.3c1.5 0 2.9-1.5 2.9-3.2V3.2C19.9 1.5 18.7 0 17 0ZM7 11.8V4.2L13.7 8 7 11.8Z"
+                fill="#83B3D3" />
               <defs>
-                <clipPath id="a">
-                  <path fill="#fff" d="M0 0h20v16H0z" />
+                <clipPath id="clip0_39102_63">
+                <rect width="20" height="16" fill="white"/>
                 </clipPath>
               </defs>
             </svg>
@@ -391,7 +392,7 @@
       </div>
     </footer>
   </div>
-  
+
   <div id="openModal" class="modal-container modal-container-close">
     <div class="modal modal-auth">
       <div class="modal-headline">
@@ -406,8 +407,8 @@
       <form class="arrival-date-form" action="https://echo.htmlacademy.ru/" method="post">
         <label class="modal-title-form" for="arrival-date-form">Дата заезда:</label>
         <div class="date-in">
-          <input class="field-modal1" value="27 апреля 2020" type="text" name="arrival-date-form"
-            id="arrival-date-form" min="21.02.2020" required>
+          <input class="field-modal1" value="27 апреля 2020" type="text" name="arrival-date-form" id="arrival-date-form"
+            min="21.02.2020" required>
           <button class="calendar">
             <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M5.5 10c.3 0 .5-.2.5-.5S5.8 9 5.5 9s-.5.2-.5.5.2.5.5.5Z" fill="#000" />

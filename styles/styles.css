@@ -312,6 +312,9 @@ a {
   font-weight: 400;
   text-align: center;
 }
+.reasons-description.attraction {
+  width: 220px;
+}
 
 .reasons-list {
   display: flex;
@@ -487,6 +490,7 @@ a {
   margin: 0;
   padding: 0;
   width: 100%;
+  min-height: 411px;
   background-color: rgba(131, 179, 211, 0.12);
   background-image: url(../images/background.jpg);
   background-size: 100% auto;
@@ -1060,7 +1064,7 @@ legend {
   line-height: 23px;
   font-style: normal;
   font-weight: normal;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
 }
 
 .range-input::-webkit-outer-spin-button,
