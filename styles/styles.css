@@ -324,14 +324,9 @@ a {
 .reasons-item {
   display: flex;
   flex-direction: column;  
-  min-height: 384px;
 }
 
 .reasons-item-primary.reasons-item {
-  display: flex;
-  flex-direction: row;
-  margin: 0;
-  padding: 0;
   width: 100%;
   color: #ffffff;
   background-color: #83B3D3;
@@ -395,7 +390,6 @@ a {
   margin: 0;
   padding: 0;
   width: 400px;
-  min-height: 384px;
   color: #000000;
 }
 
@@ -2053,5 +2047,5 @@ body {
 }
 
 .modal-container-close {
-  display: non;
+  display: none;
 }
