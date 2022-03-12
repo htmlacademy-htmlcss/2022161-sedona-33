@@ -141,6 +141,9 @@ a {
 .user-menu-item:hover path {
   fill: #756257;
 }
+.user-menu-link:focus path {
+  fill: #756257;
+}
 
 .user-menu-item:active path {
   fill: #756257;
