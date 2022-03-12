@@ -1290,7 +1290,7 @@ legend {
 .select-control:active {
   border: 2px solid #E6E6E6;
   color: #333333;
-  opacity: 0.3s
+  opacity: 0.3;
 }
 
 .hotels {
@@ -1599,7 +1599,7 @@ legend {
   padding: 0;
   text-align: center;
   font-size: 18px;
-  font-weight: 23px;
+  line-height: 23px;
   font-weight: 400;
   color: #333333;
 }
@@ -2093,5 +2093,5 @@ body {
 }
 
 .modal-container-close {
-  display: non;
+  display: none;
 }
