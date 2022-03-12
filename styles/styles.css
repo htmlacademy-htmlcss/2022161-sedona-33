@@ -50,6 +50,7 @@ button {
 
 a {
   outline: none;
+  cursor: pointer;
 }
 
 .page-header-logo {
@@ -135,6 +136,15 @@ a {
   justify-content: center;
   width: 42px;
   height: 100%;
+}
+
+.user-menu-item:hover path {
+  fill: #756257;
+}
+
+.user-menu-item:active path {
+  fill: #756257;
+  opacity: 0.3;
 }
 
 .likes {
@@ -362,13 +372,26 @@ a {
   grid-template-columns: 400px 400px 400px;
 }
 
+.reason-img{
+  max-width: 800px;
+}
+
 .reason-img1 {
   grid-column: 2/-1;
+  max-width: 800px;
+  background-color: #83B3D3;
+  background-image: url("/images/photo1.jpg");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
 }
 
 .reason-img2 {
   grid-column: 1/-2;
-  height: 384px;
+  max-width: 800px;
+  background-color: #83B3D3;
+  background-image: url("/images/photo2.jpg");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
 }
 
 .house-icon {
@@ -1267,7 +1290,7 @@ legend {
 .select-control:active {
   border: 2px solid #E6E6E6;
   color: #333333;
-  opacity: 0.3s
+  opacity: 0.3;
 }
 
 .hotels {
@@ -1576,7 +1599,7 @@ legend {
   padding: 0;
   text-align: center;
   font-size: 18px;
-  font-weight: 23px;
+  line-height: 23px;
   font-weight: 400;
   color: #333333;
 }
@@ -1851,10 +1874,29 @@ body {
   align-items: center;
 }
 
+.adult {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+}
+
 .adults-title {
   display: flex;
   width: 155px;
   vertical-align: middle;
+}
+
+.children {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+  margin-left: 56px;
 }
 
 .children-title {
@@ -1962,8 +2004,8 @@ body {
 
 .tooltip {
   position: absolute;
-  margin-top: 0;
-  margin-left: 54px;
+  margin-top: 2px;
+  margin-left: 36px;
   width: 25px;
   height: 25px;
 }
@@ -2022,7 +2064,7 @@ body {
 .popover {
   display: block;
   position: absolute;
-  top: 41px;
+  top: 39px;
   left: -116px;
   width: 216px;
   height: 110px;
